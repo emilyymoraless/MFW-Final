@@ -3,6 +3,14 @@ body {
     background-image: url(/MFW-Final/CSS/img/marble.jpg);
   }
   
+ .row{
+  display: flex;
+  flex-wrap: wrap;
+ } 
+
+ .card{
+  display: flex;
+ }
   .carousel-indicators [data-bs-target] {
     width: 10px; /* change width */
     height: 10px; /* change height */
