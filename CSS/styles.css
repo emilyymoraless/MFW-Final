@@ -3,14 +3,41 @@ body {
     background-image: url(/MFW-Final/CSS/img/marble.jpg);
   }
   
+ .row{
+  display: flex;
+  flex-wrap: wrap;
+ } 
+
+ .card{
+  display: flex;
+ }
   .carousel-indicators [data-bs-target] {
     width: 10px; /* change width */
     height: 10px; /* change height */
     border-radius: 100%; /* add border-radius */
   }
+
+  #title{
+    font-family: 'playfair display';
+    font-weight: 900;
+  }
+
+  h2{
+    font-family: 'playfair display' ;
+  }
   
   h4 {
       color: white;
+  }
+
+  h5{
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+  }
+
+  p{
+    font-family: 'merriweather', serif;
+    font-weight: 300;
   }
 
   @media only screen and (min-aspect-ratio: 16/9) {
