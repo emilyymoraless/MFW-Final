@@ -3,28 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>MFW-Final</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Playfair+Display:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/styles.css">
   </head>
   <body>
 <!--Navbar Starts-->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Emily's Favorites</a>
+        <a id="title" class="navbar-brand" href="https://emilyymoraless.github.io/final-project/" target="_blank">Emily's Favorites</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#section1">Home</a>
+              <a class="nav-link " aria-current="page" href="#section1">Makeup Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#section2">second page</a>
+              <a class="nav-link " href="#section2">Fashion</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#section3">third page</a>
+              <a class="nav-link" href="#section3">Food</a>
             </li>
           </ul>
         </div>
@@ -146,35 +149,148 @@
 
 <!--First section starts-->
   <div class="album py-5 bg-light">
-    <div class="container">
+    <div class="container" id="section1">
+      <h2 class="text-center">Makeup Products</h2> 
       <div class="row">
-        
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow" style="width: 18rem;">
-            <img src="/MFW-Final/CSS/img/img1.jpg" class="card-img-top" alt="insert picture">
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="/MFW-Final/CSS/img/foundation.jpg" class="card-img-top" alt="insert picture">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Foundation</h5>
+              <p class="card-text">I love that this product is really long wearing and looks super natural on the skin.</p>
+              <a href="https://www.target.com/p/l-oreal-paris-infallible-24hr-fresh-wear-foundation-with-spf-25-1-fl-oz/-/A-79702491?preselect=75563573#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card mb-4 box-shadow" style="width: 18rem;">
-            <img src="CSS/img/img1.jpg" class="card-img-top" alt="insert picture">
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+              <img src="CSS/img/lipstick.jpg" class="card-img-top" alt="insert picture">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Liquid Lipstick</h5>
+              <p class="card-text">The most long lasting liquid lipstick. It is comfortable on the lips and does not transfer.</p>
+              <a href="https://www.target.com/p/maybelline-superstay-matte-ink-liquid-lipstick-0-17-fl-oz/-/A-82163948?preselect=52117634#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="insert picture">
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/liner.png" class="card-img-top" alt="insert picture">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Eyeliner</h5>
+              <p class="card-text">I love that this liner is smudge-proof and makes the sharpest wings.</p>
+              <a href="https://www.target.com/p/nyx-professional-makeup-epic-wear-liquid-liner-long-lasting-waterproof-eyeliner-0-12-fl-oz/-/A-77527790?preselect=76485900#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/concealer.png" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Concealer</h5>
+              <p class="card-text">This product has a lightweight formula while also providing good coverage.</p>
+              <a href="https://www.target.com/p/maybelline-fit-me-liquid-concealer-0-23-fl-oz/-/A-13660418?preselect=52446999#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/shadows.png" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Eye Shadow</h5>
+              <p class="card-text">I like that this palette offers a wide range of colors for all kinds of looks.</p>
+              <a href="https://www.target.com/p/morphe-x-jaclyn-hill-eyeshadow-palette-1-98-oz-ulta-beauty/-/A-82568187#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/spray.png" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Setting Spray</h5>
+              <p class="card-text">This product makes your makeup look airbrushed and last all day.</p>
+              <a href="https://www.target.com/p/morphe-continuous-setting-mist-ulta-beauty/-/A-83490693?preselect=82568051#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/bronzer.png" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Bronzer</h5>
+              <p class="card-text">This has the smoothest formula and the perfect undertone for my skintone.</p>
+              <a href="https://www.target.com/p/benefit-cosmetics-hoola-matte-powder-bronzer-ulta-beauty/-/A-86792576?preselect=85803634#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/powder.jpg" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Setting Powder</h5>
+              <p class="card-text">My favorite thing about this is that it will not give you flashback when taking pictures.</p>
+              <a href="https://www.target.com/p/wet-n-wild-photo-focus-loose-setting-powder-0-64oz/-/A-79407919?preselect=76726986#lnk=sametab" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+<!--First section ends-->
+
+<!--second section starts-->
+
+  <div class="album py-5 bg-light">
+    <div class="container" id="section2">
+      <h2 class="text-center">Fashion</h2> 
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="/MFW-Final/CSS/img/jeans.png" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Foundation</h5>
+              <p class="card-text">text</p>
+              <a href="" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+              <img src="CSS/img/lipstick.jpg" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Liquid Lipstick</h5>
+              <p class="card-text">text</p>
+              <a href="" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/liner.png" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Eyeliner</h5>
+              <p class="card-text">text.</p>
+              <a href="" class="btn btn-primary" target="_blank">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="CSS/img/liner.png" class="card-img-top" alt="insert picture">
+            <div class="card-body">
+              <h5 class="card-title">Eyeliner</h5>
+              <p class="card-text">text</p>
+              <a href="" class="btn btn-primary" target="_blank">Buy Now</a>
             </div>
           </div>
         </div>
@@ -182,7 +298,8 @@
       </div>
     </div>
   </div>
-<!--First section ends-->
+
+<!--second section ends-->
 
 
 
